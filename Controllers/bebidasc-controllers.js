@@ -1,23 +1,57 @@
 const HttpError = require('../models/http-error');
 const uuid = require('uuid');
 
-let CONSULTAR_BEBIDASC = [
-    {
-        id: "p1",
-        title: "Café",
-        creator: "u1"
-    },
-    {
-        id: "p2",
-        title: "Chocolate cáliente",
-        creator: "u1"
-    },
-    {
-        id: "p3",
-        title: "Té de jengibre",
-        creator: "u2"
-    }
-    ]
+let CONSULTAR_BEBIDASC = [{
+    id: "b1",
+    title: "Té Verde",
+    creator: "u2"
+},
+{
+    id: "b2",
+    title: "Chocolate Caliente",
+    creator: "u3"
+},
+{
+    id: "b3",
+    title: "Latte",
+    creator: "u4"
+},
+{
+    id: "b4",
+    title: "Capuchino",
+    creator: "u5"
+},
+{
+    id: "b5",
+    title: "Matcha",
+    creator: "u6"
+},
+{
+    id: "b6",
+    title: "Té de Manzanilla",
+    creator: "u7"
+},
+{
+    id: "b7",
+    title: "Té de Jengibre",
+    creator: "u8"
+},
+{
+    id: "b8",
+    title: "Café Americano",
+    creator: "u9"
+},
+{
+    id: "b9",
+    title: "Mocaccino",
+    creator: "u10"
+},
+{
+    id: "b10",
+    title: "Té Chai",
+    creator: "u11"
+}
+]
     
 const getAllBebidasC = (req, res, next)=>{
     res.json({bebidasC : CONSULTAR_BEBIDASC});
