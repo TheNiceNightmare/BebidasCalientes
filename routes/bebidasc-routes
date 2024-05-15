@@ -6,10 +6,15 @@ const router = express.Router();
 
 
 router.get('/', bebidascControllers.getAllBebidasC);
+
 router.get('/:pid', bebidascControllers.getBebidasById);
+
 router.get('/creator/:uid', bebidascControllers.getBebidaCByUsers);
+
 router.post('/', bebidascControllers.GuardarBebidac);
+
 router.patch('/:pid',bebidascControllers.updateBebidasC);
+
 router.delete('/:pid',bebidascControllers.deleteBebidaC);
 
 

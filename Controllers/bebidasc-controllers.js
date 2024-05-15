@@ -121,4 +121,4 @@ exports.getBebidasById= getBebidasById;
 exports.getBebidaCByUsers= getBebidaCByUsers;
 exports.GuardarBebidac = GuardarBebidac;
 exports.updateBebidasC=updateBebidasC;
-exports.deleteBebidaCredit= deleteBebidaC;
+exports.deleteBebidaC= deleteBebidaC;
